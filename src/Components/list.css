@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100vh;
+}
+
+.table {
+
+  background-color: #000;
+  color: #fff;
+  border-collapse: collapse;
+  width: 1500px;
+  margin-top: 20px;
+  margin-bottom: 400px;
+}
+
+.table thead th {
+  color: #fff;
+  background-color: #333;
+  padding: 10px;
+}
+
+.table tbody td {
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.65);
+  padding: 8px;
+  text-align: center;
+}
+
+.table tbody tr:nth-child(even) {
+  background-color: #444;
+}
